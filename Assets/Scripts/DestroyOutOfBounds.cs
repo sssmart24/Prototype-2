@@ -24,4 +24,4 @@ public class DestroyOutOfBounds : MonoBehaviour
             Destroy(gameObject);
         }
     }
-}
+} 
