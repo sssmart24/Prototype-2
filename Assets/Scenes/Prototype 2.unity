@@ -486,7 +486,7 @@ MonoBehaviour:
   verticalInput: 0
   speed: 15
   xRange: 20
-  zRange: 15
+  zRange: 14.5
   projectilePrefab: {fileID: 2631488704669069348, guid: 77556ebbba9ce4a9bbb2e298a6e36e58,
     type: 3}
 --- !u!1 &992285705
