@@ -7,8 +7,8 @@ public class PlayerController : MonoBehaviour
     public float horizontalInput;
     public float verticalInput;
     public float speed = 10.0f;
-    public float xRange = 20;
-    public float zRange = 10;
+    public float xRange = 40;
+    public float zRange = 20;
 
     public GameObject projectilePrefab;
 
