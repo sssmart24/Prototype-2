@@ -467,6 +467,49 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!1 &696825762
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 696825764}
+  - component: {fileID: 696825763}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &696825763
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 696825762}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c19bf42ac32264fbfa9d66b5f5e77135, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &696825764
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 696825762}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -13.250665, y: 1.745622, z: 18.548416}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &967545442 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100046, guid: 0e1316a3e46fdb349b6ff648610a1d71,
@@ -534,6 +577,10 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100046, guid: 0e1316a3e46fdb349b6ff648610a1d71, type: 3}
       propertyPath: m_Name
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 100046, guid: 0e1316a3e46fdb349b6ff648610a1d71, type: 3}
+      propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 400046, guid: 0e1316a3e46fdb349b6ff648610a1d71, type: 3}
@@ -748,7 +795,7 @@ PrefabInstance:
     - target: {fileID: 3057222546653562083, guid: ee95e4cd886554caa947b0a006ba7b05,
         type: 3}
       propertyPath: speed
-      value: 10
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 3057222547215215086, guid: ee95e4cd886554caa947b0a006ba7b05,
         type: 3}
@@ -882,7 +929,7 @@ PrefabInstance:
     - target: {fileID: 4893204347372891461, guid: 9e22dbb478cae46cb9ba4103d1e7312d,
         type: 3}
       propertyPath: speed
-      value: 10
+      value: 20
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9e22dbb478cae46cb9ba4103d1e7312d, type: 3}
@@ -896,7 +943,7 @@ PrefabInstance:
     - target: {fileID: 5178924416248605879, guid: 7d4c2099ce7814d878f5f81860bdc571,
         type: 3}
       propertyPath: speed
-      value: 10
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 5178924416454299177, guid: 7d4c2099ce7814d878f5f81860bdc571,
         type: 3}
@@ -1027,6 +1074,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3971948938763623349, guid: 041c12da1cb4b47699fa07b622323d53,
+        type: 3}
+      propertyPath: speed
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 041c12da1cb4b47699fa07b622323d53, type: 3}
 --- !u!1001 &8008299616923444434
@@ -1099,7 +1151,7 @@ PrefabInstance:
     - target: {fileID: 7845570831851284137, guid: a3554efcc7ba740efa5160fc1fab6589,
         type: 3}
       propertyPath: speed
-      value: 10
+      value: 20
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a3554efcc7ba740efa5160fc1fab6589, type: 3}
@@ -1169,6 +1221,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Animal_Chick
+      objectReference: {fileID: 0}
+    - target: {fileID: 8211707345010451359, guid: 55558411233ff499283556189592ccb7,
+        type: 3}
+      propertyPath: speed
+      value: 15
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 55558411233ff499283556189592ccb7, type: 3}
